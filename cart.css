@@ -1,0 +1,51 @@
+.form-outline {
+    display: flex;
+}
+
+.form-outline > .btn-dark {
+    background-color: green;
+}
+
+.background {
+    background-color: green;
+    height: 4.688em;
+    line-height: 4em;
+    
+}
+.checkout {
+    font-size: 21px;
+    text-align: center;
+    color: #fff;
+}
+
+.ship {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ship > .mb-4 {
+    color: burlywood;
+    font-weight: bold;
+} 
+
+h6 {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+.text-body {
+    padding: 10px;
+    background-color: grey;
+    border: 1px solid grey;
+    border-radius: 5px;
+    color: #fff !important;
+}
+
+.mtt {
+    margin-top: 5.3em;
+}
+
+
+

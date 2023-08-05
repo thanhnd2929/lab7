@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <link rel="stylesheet" href="style3.css">
+  <link rel="stylesheet" href="fontawesome/fontawesome-free-6.4.0-web/css/all.min.css">
+  <link rel="stylesheet" href="cart.css">
+  <title>Document</title>
+</head>
+
+<body>
+
+  <!-- start header -->
+  <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="images/logo.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                New product
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Shop
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Page
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">All Page Link</a>
+            </li>
+
+
+
+          </ul>
+          <form class="d-flex">
+            <li class="nav-item dropdown cart_right">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                <i class="fa-solid fa-cart-shopping" style="color: #edf1f8;">Cart</i>
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <!-- end  header -->
+  <!-- start banner -->
+  <div class="container-fluid">
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/slider1.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="images/slider2.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="images/slider3.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+  <!-- end banner -->
+
+  <!-- start content -->
+  <div class="container-fluid">
+    <section class="h-100 h-custom" style="background-color: #efeef5;">
+      <div class="container py-5 h-100">
+        <div class="row d-flex justify-content-center align-items-center h-100">
+          <div class="col-12">
+            <div class="card card-registration card-registration-2" style="border-radius: 15px;">
+              <div class="card-body p-0">
+                <div class="row g-0">
+                  <div class="col-lg-8">
+                    <div class="p-5">
+                      <div class="d-flex justify-content-between align-items-center mb-5">
+                        <i class="fa-solid fa-cart-shopping" style="color: #09090a;">Shopping
+                          Cart</i>
+                        <h6 class="mb-0 text-muted">3 items</h6>
+                      </div>
+                      <hr class="my-4">
+
+                      <div class="row mb-4 d-flex justify-content-between align-items-center">
+                        <div class="col-md-2 col-lg-2 col-xl-2">
+                          <img
+                            src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-shopping-carts/img5.webp"
+                            class="img-fluid rounded-3" alt="Cotton T-shirt">
+                        </div>
+                        <div class="col-md-3 col-lg-3 col-xl-3">
+                          <h6 class="text-muted">Shirt</h6>
+                          <h6 class="text-black mb-0">Cotton T-shirt</h6>
+                        </div>
+                        <div class="col-md-3 col-lg-3 col-xl-2 d-flex">
+                          <button class="btn btn-link px-2"
+                            onclick="this.parentNode.querySelector('input[type=number]').stepDown()">
+                            <i class="fas fa-minus"></i>
+                          </button>
+
+                          <input id="form1" min="0" name="quantity" value="1" type="number"
+                            class="form-control form-control-sm" />
+
+                          <button class="btn btn-link px-2"
+                            onclick="this.parentNode.querySelector('input[type=number]').stepUp()">
+                            <i class="fas fa-plus"></i>
+                          </button>
+                        </div>
+                        <div class="col-md-3 col-lg-2 col-xl-2 offset-lg-1">
+                          <h6 class="mb-0">€ 44.00</h6>
+                        </div>
+                        <div class="col-md-1 col-lg-1 col-xl-1 text-end">
+                          <a href="#!" class="text-muted"><i class="fas fa-times"></i></a>
+                        </div>
+                      </div>
+
+                      <hr class="my-4">
+
+                      <div class="row mb-4 d-flex justify-content-between align-items-center">
+                        <div class="col-md-2 col-lg-2 col-xl-2">
+                          <img
+                            src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-shopping-carts/img6.webp"
+                            class="img-fluid rounded-3" alt="Cotton T-shirt">
+                        </div>
+                        <div class="col-md-3 col-lg-3 col-xl-3">
+                          <h6 class="text-muted">Shirt</h6>
+                          <h6 class="text-black mb-0">Cotton T-shirt</h6>
+                        </div>
+                        <div class="col-md-3 col-lg-3 col-xl-2 d-flex">
+                          <button class="btn btn-link px-2"
+                            onclick="this.parentNode.querySelector('input[type=number]').stepDown()">
+                            <i class="fas fa-minus"></i>
+                          </button>
+
+                          <input id="form1" min="0" name="quantity" value="1" type="number"
+                            class="form-control form-control-sm" />
+
+                          <button class="btn btn-link px-2"
+                            onclick="this.parentNode.querySelector('input[type=number]').stepUp()">
+                            <i class="fas fa-plus"></i>
+                          </button>
+                        </div>
+                        <div class="col-md-3 col-lg-2 col-xl-2 offset-lg-1">
+                          <h6 class="mb-0">€ 44.00</h6>
+                        </div>
+                        <div class="col-md-1 col-lg-1 col-xl-1 text-end">
+                          <a href="#!" class="text-muted"><i class="fas fa-times"></i></a>
+                        </div>
+                      </div>
+
+                      <hr class="my-4">
+
+                      <div class="row mb-4 d-flex justify-content-between align-items-center">
+                        <div class="col-md-2 col-lg-2 col-xl-2">
+                          <img
+                            src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-shopping-carts/img7.webp"
+                            class="img-fluid rounded-3" alt="Cotton T-shirt">
+                        </div>
+                        <div class="col-md-3 col-lg-3 col-xl-3">
+                          <h6 class="text-muted">Shirt</h6>
+                          <h6 class="text-black mb-0">Cotton T-shirt</h6>
+                        </div>
+                        <div class="col-md-3 col-lg-3 col-xl-2 d-flex">
+                          <button class="btn btn-link px-2"
+                            onclick="this.parentNode.querySelector('input[type=number]').stepDown()">
+                            <i class="fas fa-minus"></i>
+                          </button>
+
+                          <input id="form1" min="0" name="quantity" value="1" type="number"
+                            class="form-control form-control-sm" />
+
+                          <button class="btn btn-link px-2"
+                            onclick="this.parentNode.querySelector('input[type=number]').stepUp()">
+                            <i class="fas fa-plus"></i>
+                          </button>
+                        </div>
+                        <div class="col-md-3 col-lg-2 col-xl-2 offset-lg-1">
+                          <h6 class="mb-0">€ 44.00</h6>
+                        </div>
+                        <div class="col-md-1 col-lg-1 col-xl-1 text-end">
+                          <a href="#!" class="text-muted"><i class="fas fa-times"></i></a>
+                        </div>
+                      </div>
+
+                      <hr class="my-4">
+
+                      <div class="boxx">
+                        <div class="pt-5">
+                          <h6 class="mb-0 flexx"><a href="#!" class="text-body"><i
+                                class="fas fa-long-arrow-alt-left me-2"></i>continue shopping</a>
+                        </div>
+
+                      </div>
+
+
+                    </div>
+                  </div>
+                  <div class="col-lg-4 bg-grey bg-checkout">
+                    <div class="p-5">
+                      <div class="background">
+                        <h3 class="fw-bold mb-5 mt-2 pt-1 checkout">Proceed to checkout</h3>
+                      </div>
+                      <hr class="my-4">
+
+                      <div class="d-flex justify-content-between mb-4">
+                        <h5 class="text-uppercase">items 3</h5>
+                        <h5>€ 132.00</h5>
+                      </div>
+
+                      <div class="ship">
+                        <h5 class="text-uppercase mb-3">Shipping</h5>
+
+                        <div class="mb-4 pb-2">
+                          Free Shipping
+                        </div>
+                      </div>
+
+                      <div class="d-flex justify-content-between mb-5">
+                        <h5 class="text-uppercase">Total price</h5>
+                        <h5 style="color: green; font-weight: bold;">€ 137.00</h5>
+                      </div>
+
+                      <div class="d-flex justify-content-between mb-5">
+                        <h5 class="text-uppercase">Total tax</h5>
+                        <h5>€00</h5>
+                      </div>
+
+                      <h5 class="text-uppercase mb-3">Give code</h5>
+
+                      <div class="mb-5">
+                        <div class="form-outline">
+                          <input type="text" id="form3Examplea2" class="form-control form-control-lg" />
+                          <button type="button" class="btn btn-dark btn-block btn-lg"
+                            data-mdb-ripple-color="">Apply</button>
+
+                        </div>
+                        <label class="form-label" for="form3Examplea2">Enter your code</label>            
+                        <div class="pt-4">
+                          <h6 class="mb-0 flexx"><a href="#!" class="text-body mtt">Update cart</a>
+                               
+                        </div>
+
+                      </div>
+                     
+
+                    </div>
+                              
+                  </div>
+                        
+                </div>
+                  
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="bootstrap.bundle.min.js"></script>
+  </div>
+  <!-- end content -->
+
+  <!-- start banner 2 -->
+  <div class="container-fluid banner2">
+    <h3>Trust seller 500+</h3>
+  </div>
+  <!-- end banner 2 -->
+
+
+  <!-- start footer -->
+  <div class="container-fluid">
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-3 col-lg-4 col-md-6">
+            <div>
+              <h3>Logo</h3>
+              <p class="mb-30 footer-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad soluta facilis
+                eos quia optio iusto odit atque eum tempore, quisquam officiis vero veniam hic,</p>
+            </div>
+          </div>
+          <div class="col-xl-2 offset-xl-1 col-lg-2 col-md-6">
+            <div class="">
+              <h4>Quick Link</h4>
+              <ul class="list-unstyled">
+                <li>
+                  <a href="#" class="text-decoration-none">Home</a>
+                </li>
+                <li>
+                  <a href="#" class="text-decoration-none">About Us</a>
+                </li>
+                <li>
+                  <a href="#" class="text-decoration-none">Service</a>
+                </li>
+                <li>
+                  <a href="#" class="text-decoration-none">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-md-6">
+            <div>
+              <h4>Service</h4>
+              <ul class="list-unstyled">
+                <li>
+                  <a href="#" class="text-decoration-none">Marketing</a>
+                </li>
+                <li>
+                  <a href="#" class="text-decoration-none">Branding</a>
+                </li>
+                <li>
+                  <a href="#" class="text-decoration-none">Web Design</a>
+                </li>
+                <li>
+                  <a href="#" class="text-decoration-none">Graphics Design</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-md-6">
+            <div>
+              <h4>Newsletter</h4>
+              <div>
+                <label for="Newsletter" class="form-label">Subscribe To Our Newsletter</label>
+                <input type="text" class="form-control" Placeholder="Enter Your Email">
+                <button class="btn btn-danger mt-3 w-100">Subscribe</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center">
+          <div class="copyright">
+            <p>Developed and maintained by <a href="#" target="_blank">company</a></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <!-- end footer -->
+
+  <script src="bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

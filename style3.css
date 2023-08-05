@@ -1,0 +1,87 @@
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.navbar {
+    margin-bottom: 40px;
+}
+
+.navbar-expand-lg > .container-fluid {
+    background-color: green;
+    
+}
+
+.container-fluid .nav-item .nav-link {
+    color: #fff;
+}
+
+.d-flex .btn {
+    background-color: #fff;
+}
+
+.carousel-inner {
+    margin-bottom: 40px;
+}
+
+.sub_banner {
+    height: 50%;
+}
+
+.banner2 {
+    background-color: green;
+    color: #fff;
+    height: 100px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cart_right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+
+
+
+.card {
+    position: relative;
+}
+
+.sale {
+    position: absolute;  
+    top: 35%;
+    display: flex;
+    font-size: 16px;
+    color: aliceblue;
+}
+
+.new {
+    width: 36%;
+    background-color: red;
+}
+.off {
+    width: 65%;
+    background-color: green;
+}
+
+.card-body {
+    text-align: center  ;
+}
+
+.price {
+    margin-top: 35px;
+}
+.price p {
+    margin-bottom: 0;
+}
+
+.btn {
+    font-size: 10px;
+    background-color: green;
+}
